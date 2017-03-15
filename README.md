@@ -8,18 +8,16 @@ The purpose of this tiny repo is to demonstrate logging in to Firebase and readi
 * Run `npm i`
 * Add a config file with firebase credentials in `/src/config.js`:
 
-`
-module.exports = {
+    module.exports = {
 
-    FIREBASE_CONFIG: {
+      FIREBASE_CONFIG: {
 
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        storageBucket: "",
-        messagingSenderId: ""
+          apiKey: "",
+          authDomain: "",
+          databaseURL: "",
+          storageBucket: "",
+          messagingSenderId: ""
 
-    },
-};
-`
+        },
+    };
 * Launch via `npm start`
