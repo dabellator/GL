@@ -20,5 +20,6 @@ module.exports = {
     messagingSenderId: ""
 
   },
-};```
+};
+```
 * Launch via `npm start`
